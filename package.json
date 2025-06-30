@@ -1,0 +1,23 @@
+{
+  "name": "understandingtypescriptwithmax",
+  "version": "1.0.0",
+  "description": "This is my personal study plan for completing a TypeScript course I'm aiming to strengthen my foundation and gain confidence through real-world, hands-on practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayHyeyeonKim/UnderstandingTypescriptWithMax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayHyeyeonKim/UnderstandingTypescriptWithMax/issues"
+  },
+  "homepage": "https://github.com/MayHyeyeonKim/UnderstandingTypescriptWithMax#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.8"
+  }
+}
