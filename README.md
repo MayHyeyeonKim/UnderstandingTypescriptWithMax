@@ -6,8 +6,8 @@ I'm aiming to strengthen my foundation and gain confidence through real-world, h
 | Week | Section Title                                        | Duration | Goal                                                 | Status         |
 | ---- | ---------------------------------------------------- | -------- | ---------------------------------------------------- | -------------- |
 | 1    | Section 1: Getting Started                           | 25 min   | Kick off the course and set up my environment        | ✅ Done        |
-| 1    | Section 2: TypeScript Basics & Basic Types           | 1h 46min | Understand the basic types and syntax of TypeScript  | 🔄 In Progress |
-| 2    | Section 3: The TypeScript Compiler                   | 28 min   | Learn about the compiler and its configuration       | ⏳ Pending     |
+| 1    | Section 2: TypeScript Basics & Basic Types           | 1h 46min | Understand the basic types and syntax of TypeScript  | ✅ Done        |
+| 2    | Section 3: The TypeScript Compiler                   | 28 min   | Learn about the compiler and its configuration       | 🔄 In Progress |
 | 2    | Section 4: TypeScript Essentials Demo Project        | 31 min   | Apply the basics in a hands-on mini project          | ⏳ Pending     |
 | 3    | Section 5: Next-generation JavaScript & TypeScript   | 34 min   | Learn about ES6+ features relevant to TS             | ⏳ Pending     |
 | 3-4  | Section 6: Classes & Interfaces                      | 3h 3min  | Master OOP in TypeScript                             | ⏳ Pending     |
