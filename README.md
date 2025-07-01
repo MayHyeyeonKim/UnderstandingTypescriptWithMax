@@ -8,8 +8,8 @@ I'm aiming to strengthen my foundation and gain confidence through real-world, h
 | 1    | Section 1: Getting Started                           | 25 min   | Kick off the course and set up my environment        | ✅ Done        |
 | 1    | Section 2: TypeScript Basics & Basic Types           | 1h 46min | Understand the basic types and syntax of TypeScript  | ✅ Done        |
 | 2    | Section 3: The TypeScript Compiler                   | 28 min   | Learn about the compiler and its configuration       | ✅ Done        |
-| 2    | Section 4: TypeScript Essentials Demo Project        | 31 min   | Apply the basics in a hands-on mini project          | 🔄 In Progress |
-| 3    | Section 5: Next-generation JavaScript & TypeScript   | 34 min   | Learn about ES6+ features relevant to TS             | ⏳ Pending     |
+| 2    | Section 4: TypeScript Essentials Demo Project        | 31 min   | Apply the basics in a hands-on mini project          | ✅ Done        |
+| 3    | Section 5: Next-generation JavaScript & TypeScript   | 34 min   | Learn about ES6+ features relevant to TS             | 🔄 In Progress |
 | 3-4  | Section 6: Classes & Interfaces                      | 3h 3min  | Master OOP in TypeScript                             | ⏳ Pending     |
 | 4    | Section 7: Advanced Types                            | 46 min   | Explore complex and utility types                    | ⏳ Pending     |
 | 5    | Section 8: Generic Types                             | 28 min   | Learn how to write generic functions & components    | ⏳ Pending     |
