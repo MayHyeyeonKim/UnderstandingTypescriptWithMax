@@ -1,22 +1,25 @@
-//function vs arrow function
-function add(a: number, b: number): number {
+/**
+JavaScript Function Declarations vs Expressions
+
+1) Functrion Declarations:
+- Hoisted: Can be called before declaration.
+
+function add(a, b) {
   return a + b;
 }
 
-const addArrow = (a: number, b: number): number => a + b;
-
-console.log(add(2, 3)); // 5
-console.log(addArrow(2, 3)); // 5
-
-// Arrow functions do not have their own 'this' context
-const obj = {
-  value: 42,
-  getValue: function () {
-    return this.value;
-  },
-  getValueArrow: () => {
-    return this.value; // 'this' refers to the global object, not 'obj'
-  },
+2) Function Expressions:
+- Not hoisted: Cannot be called before declaration.
+const add = function(a, b) {
+  return a + b;
 };
-console.log(obj.getValue()); // 42
-console.log(obj.getValueArrow()); // undefined (or global value if defined)
+
+3) Arrow Functions
+- Shorter syntax for function expressions.
+const add = (a, b) => a + b;
+- Cannot be used as constructors (no 'new').
+const add = (a, b) => {
+  return a + b;
+};
+- Lexical 'this': 'this' refers to the surrounding context, not the function itself
+ */
