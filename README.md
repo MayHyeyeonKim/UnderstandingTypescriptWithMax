@@ -13,8 +13,8 @@ I'm aiming to strengthen my foundation and gain confidence through real-world, h
 | 3-4  | Section 6: Classes & Interfaces                      | 3h 3min  | Master OOP in TypeScript                             | ✅ Done        |
 | 4    | Section 7: Advanced Types                            | 46 min   | Explore complex and utility types                    | ✅ Done        |
 | 5    | Section 8: Generic Types                             | 28 min   | Learn how to write generic functions & components    | ✅ Done        |
-| 5    | Section 9: Classes & Generics – Demo Project         | 26 min   | Practice generics and class-based design             | 🔄 In Progress |
-| 6    | Section 10: Deriving Types From Types                | 1h 19min | Practice using `keyof`, `typeof`, and type inference | ⏳ Pending     |
+| 5    | Section 9: Classes & Generics – Demo Project         | 26 min   | Practice generics and class-based design             | ✅ Done        |
+| 6    | Section 10: Deriving Types From Types                | 1h 19min | Practice using `keyof`, `typeof`, and type inference | 🔄 In Progress |
 | 6    | Section 11: ECMAScript Decorators                    | 51 min   | Learn about decorators and their use cases           | ⏳ Pending     |
 | 7    | Section 12: Experimental Decorators                  | 1h 17min | Dive into experimental decorator setup and patterns  | ⏳ Pending     |
 | 7-8  | Section 13: Practice – Drag & Drop Project           | 2h 42min | Build a fully functional TypeScript project          | ⏳ Pending     |
