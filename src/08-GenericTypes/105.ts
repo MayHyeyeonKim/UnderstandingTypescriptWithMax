@@ -1,5 +1,7 @@
-// function merge105<T, U>(a: T, b: U): [T, U] {
-//   return [a, b];
-// }
+// 105. Working with Multiple Generic Parameters
 
-// const result = merge105("Max", 30);
+function merge105<T, U>(a: T, b: U): [T, U] {
+  return [a, b];
+}
+
+const mergedResult105 = merge105("Max", 30);

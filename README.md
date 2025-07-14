@@ -10,9 +10,9 @@ I'm aiming to strengthen my foundation and gain confidence through real-world, h
 | 2    | Section 3: The TypeScript Compiler                   | 28 min   | Learn about the compiler and its configuration       | ✅ Done        |
 | 2    | Section 4: TypeScript Essentials Demo Project        | 31 min   | Apply the basics in a hands-on mini project          | ✅ Done        |
 | 3    | Section 5: Next-generation JavaScript & TypeScript   | 34 min   | Learn about ES6+ features relevant to TS             | ✅ Done        |
-| 3-4  | Section 6: Classes & Interfaces                      | 3h 3min  | Master OOP in TypeScript                             | ✅ Don         |
-| 4    | Section 7: Advanced Types                            | 46 min   | Explore complex and utility types                    | 🔄 In Progress |
-| 5    | Section 8: Generic Types                             | 28 min   | Learn how to write generic functions & components    | 🔄 In Progress |
+| 3-4  | Section 6: Classes & Interfaces                      | 3h 3min  | Master OOP in TypeScript                             | ✅ Done        |
+| 4    | Section 7: Advanced Types                            | 46 min   | Explore complex and utility types                    | ✅ Done        |
+| 5    | Section 8: Generic Types                             | 28 min   | Learn how to write generic functions & components    | ✅ Done        |
 | 5    | Section 9: Classes & Generics – Demo Project         | 26 min   | Practice generics and class-based design             | 🔄 In Progress |
 | 6    | Section 10: Deriving Types From Types                | 1h 19min | Practice using `keyof`, `typeof`, and type inference | ⏳ Pending     |
 | 6    | Section 11: ECMAScript Decorators                    | 51 min   | Learn about decorators and their use cases           | ⏳ Pending     |

@@ -1,3 +1,5 @@
+// 103. Creating & Using a Generic Type
+
 let names103: Array<string> = ["Max", "May"];
 
 type DataStore<T> = {
