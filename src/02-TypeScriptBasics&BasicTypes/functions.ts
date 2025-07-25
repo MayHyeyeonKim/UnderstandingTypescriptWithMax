@@ -1,9 +1,9 @@
 function addInFunction(a: number, b: number): number {
-    return a + b
+  return a + b;
 }
 
 function logResult(message: string) {
-    console.log(message);
+  console.log(message);
 }
 
 // let logAndThrow = (errMessage: string): never => {
@@ -14,24 +14,26 @@ function logResult(message: string) {
 // const logged = logAndThrow("Hi there!"); // This will log the error message and throw an error
 
 function performJob(cb: (result: string) => void) {
-    cb("JobDone!");
+  cb("JobDone!");
 }
 
-performJob(logResult)
+performJob(logResult);
 
-type User = {
-    name: string;
-    age: number;
-    greet: () => string;
-}
+type User002 = {
+  name: string;
+  age: number;
+  greet: () => string;
+};
 
-let user: User = {
-    name: "May",
-    age: 3,
-    greet() {
-        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old!`)
-        return this.name;
-    }
-}
+let user: User002 = {
+  name: "May",
+  age: 3,
+  greet() {
+    console.log(
+      `Hello, my name is ${this.name} and I am ${this.age} years old!`
+    );
+    return this.name;
+  },
+};
 
 user.greet();

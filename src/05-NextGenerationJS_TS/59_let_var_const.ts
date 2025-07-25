@@ -23,7 +23,7 @@ function test() {
     let y = 20;
   }
   console.log(x); // ✅ 10 (var is function scoped)
-  console.log(y); // ❌ err! (let is block scoped)
+  // console.log(y); // ❌ err! (let is block scoped)
 }
 
 export {};

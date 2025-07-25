@@ -1,9 +1,8 @@
 // 136. Building a First Decorator
 
-function logger136(target: any, ctx: ClassDecoratorContext) {
+function logger136(target: any) {
   console.log("Logger called");
   console.log("Target:", target);
-  console.log("Context:", ctx);
 }
 
 @logger136

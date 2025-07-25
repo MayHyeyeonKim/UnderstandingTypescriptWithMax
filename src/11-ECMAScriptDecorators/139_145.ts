@@ -6,13 +6,9 @@
 // 144. Building Configurable Decorators with Factories
 // 145. Onwards to Experimental Decorators
 
-function logger139<T extends new (...args: any[]) => any>(
-  target: T,
-  ctx: ClassDecoratorContext
-) {
+function logger139<T extends new (...args: any[]) => any>(target: T) {
   console.log("logger decorator");
   console.log(target);
-  console.log(ctx);
 
   return class extends target {
     constructor(...args: any[]) {
@@ -42,29 +38,28 @@ function autobind(
 function replacer<T>(initValue: T) {
   return function replacerDecorator(
     target: undefined,
-    ctx: ClassFieldDecoratorContext
+    context: ClassFieldDecoratorContext
   ) {
     console.log(target);
-    console.log(ctx);
+    console.log(context);
 
-    return (initialValue: any) => {
-      console.log(initialValue);
-      return initValue;
-    };
+    context.addInitializer(function () {
+      (this as any)[context.name] = initValue;
+    });
   };
 }
 
-@logger139
-class Person139 {
-  @replacer("")
-  name = "May";
+// @logger139
+// class Person139 {
+//   @replacer("")
+//   name = "May";
 
-  @autobind
-  greet() {
-    console.log("Hi, I am " + this.name);
-  }
-}
+//   @autobind
+//   greet() {
+//     console.log("Hi, I am " + this.name);
+//   }
+// }
 
-const may = new Person139();
-const greet139 = may.greet;
-greet139();
+// const may = new Person139();
+// const greet139 = may.greet;
+// greet139();

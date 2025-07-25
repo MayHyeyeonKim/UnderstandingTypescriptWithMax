@@ -1,13 +1,9 @@
 // 137. Building a Class Decorators That Edits a Class
 // 138. Understanding Decorator Code Execution Order
 
-function logger137<T extends new (...args: any[]) => any>(
-  target: T,
-  ctx: ClassDecoratorContext
-) {
+function logger137<T extends new (...args: any[]) => any>(target: T) {
   console.log("Logger called!!!!!!!!!!!!!!!!!!!!!!");
   console.log("Target????:", target);
-  console.log("Context?????", ctx);
 
   return class extends target {
     constructor(...args: any[]) {

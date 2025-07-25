@@ -9,13 +9,13 @@ console.log(firstName); // May
 //     return a + b;
 // }
 
-function add(a: number, b: number = 5) {
+function addd2(a: number, b: number = 5) {
   //function parameter
   return a + b;
 }
 
-let result1 = add(10);
-let result2 = add(10, 20); // 30
+let result1 = addd2(10);
+let result2 = addd2(10, 20); // 30
 
 console.log(result1); // 15
 console.log(result2); // 30

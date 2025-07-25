@@ -4,18 +4,17 @@ store.id = 5;
 store.isOpen = false;
 // store.name = 'Max';
 
-let roles = ['admin', 'guest', 'editor'] as const;
+let roles = ["admin", "guest", "editor"] as const;
 // roles.push('max');
 const firstRole = roles[0];
 
-enum Role {
-    ADMIN = 'admin',
-    GUEST = 'guest',
-    EDITOR = 'editor',
+enum Role007 {
+  ADMIN = "admin",
+  GUEST = "guest",
+  EDITOR = "editor",
 }
-const firstRoleEnum = Role.ADMIN;
+const firstRoleEnum = Role007.ADMIN;
 // console.log(firstRole === firstRoleEnum); // true
-
 
 /* 
 [as const] vs [enum]
