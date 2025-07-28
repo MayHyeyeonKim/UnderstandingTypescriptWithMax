@@ -17,7 +17,7 @@ I'm aiming to strengthen my foundation and gain confidence through real-world, h
 | 6    | Section 10: Deriving Types From Types                | 1h 19min | Practice using `keyof`, `typeof`, and type inference | ✅ Done        |
 | 6    | Section 11: ECMAScript Decorators                    | 51 min   | Learn about decorators and their use cases           | ✅ Done        |
 | 7    | Section 12: Experimental Decorators                  | 1h 17min | Dive into experimental decorator setup and patterns  | ✅ Done        |
-| 7-8  | Section 13: Practice – Drag & Drop Project           | 2h 42min | Build a fully functional TypeScript project          | 🔄 In Progress |
+| 7-8  | Section 13: Practice – Drag & Drop Project           | 2h 42min | Build a fully functional TypeScript project          | ✅ Done        |
 | 9    | Section 14: Modules & Namespaces                     | 51 min   | Understand module organization and structure         | 🔄 In Progress |
 | 9    | Section 15: Creating & Running TS Projects with Vite | 52 min   | Set up TypeScript apps with Vite                     | ⏳ Pending     |
 | 10   | Section 16: Using Webpack with TypeScript            | 34 min   | Learn how to bundle TS projects with Webpack         | ⏳ Pending     |
